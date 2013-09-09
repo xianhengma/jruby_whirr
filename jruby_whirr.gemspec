@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = JrubyWhirr::VERSION
   spec.authors       = ["Xianheng Ma"]
   spec.email         = ["xianheng.ma@gmail.com"]
-  spec.description   = %q{Whirr}
-  spec.summary       = %q{Whirr}
+  spec.description   = %q{jruby_whirr is a Jruby gem of Apache Whirr}
+  spec.summary       = %q{jruby_whirr is a Jruby gem of Apache Whirr}
   spec.homepage      = ""
   spec.license       = "MIT"
 

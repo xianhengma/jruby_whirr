@@ -14,5 +14,10 @@ module JrubyWhirr
 		def get_service_name
 			@cluster_spec.getServiceName()
 		end
+
+		def set_service_name (name)
+			@cluster_spec.setServiceName(name)
+		end
+
 	end
 end

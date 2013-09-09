@@ -13,8 +13,9 @@ module JrubyWhirr
 		end
 
 		def launch_cluster()
-			@cluster = @controller.launchCluster(@spec)
+			@cluster = @controller.launchCluster(@spec.cluster_spec)
 		end
+		
 		
 	end
 end
