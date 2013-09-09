@@ -16,6 +16,9 @@ module JrubyWhirr
 			@cluster = @controller.launchCluster(@spec.cluster_spec)
 		end
 		
-		
+		def destroy_cluster(spec)
+			@controller.destroyCluster(spec)
+		end
+
 	end
 end
