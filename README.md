@@ -1,6 +1,11 @@
 # JrubyWhirr
 
-TODO: Write a gem description
+jruby_whirr is a Jruby gem of Apache Whirr. Apache Whirr is a set of libraries for running cloud services.
+
+Whirr provides:
+A cloud-neutral way to run services. You don't have to worry about the idiosyncrasies of each provider. 
+A common service API. The details of provisioning are particular to the service. 
+Smart defaults for services. You can get a properly configured system running quickly, while still being able to override settings as needed. 
 
 ## Installation
 

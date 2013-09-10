@@ -7,5 +7,5 @@ require 'java'
 
 
 module JrubyWhirr
-  # Your code goes here...
+  
 end

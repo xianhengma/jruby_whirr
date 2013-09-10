@@ -20,5 +20,15 @@ module JrubyWhirr
 			@controller.destroyCluster(spec)
 		end
 
+		# def run_script(spec, script, instances, roles)
+		# 	script_runner = RunScriptCommand.new
+		# 	script_runner.run(System.in, System.out, System.err, spec, instances, roles, Statements.exec(script))
+		# end
+
+		# def run_script_in_file(sepc, file, instances, roles)
+		# 	script_runner = RunScriptCommand.new
+		# 	script_runner.run(System.in, System.out, System.err, spec, instances, roles, file)
+		# end
+
 	end
 end
