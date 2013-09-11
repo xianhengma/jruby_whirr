@@ -19,5 +19,6 @@ module JrubyWhirr
 			@cluster_spec.setServiceName(name)
 		end
 
+		
 	end
 end
