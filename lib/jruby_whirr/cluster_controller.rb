@@ -23,6 +23,10 @@ module JrubyWhirr
 			@controller.destroyCluster(@spec.cluster_spec)
 		end
 
+		def stop_service()
+			@controller.stopServices(@spec.cluster_spec)
+		end
+		
 		def run_script(spec, script, instances, roles)
 			script_runner = RunScriptCommand.new
 			script_runner.run(System.in, System.out, System.err, spec.cluster_spec, instances, roles, Statements.exec(script))
