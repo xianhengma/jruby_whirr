@@ -46,8 +46,5 @@ module JrubyWhirr
 		def set_provider(provider)
 			@cluster_spec.setProvider(provider)
 		end
-
-
-		
 	end
 end
